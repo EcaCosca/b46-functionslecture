@@ -22,6 +22,18 @@ const anonymousFunction = (parameter) => {
 // }
 
 const arrowFunk = whatever => "I'm an arrow function: " + whatever
+const arrowFunk1 = () => "I'm an arrow function: "
+const arrowFunk2 = (whatever, again) => "I'm an arrow function: " + whatever + again
 
 // console.log(arrowFunk("Hello World"))
 
+// Parameters
+
+const multiply = (num1 = 2, num2 = 2) => num1 * num2
+
+// console.log(multiply(2, 3))
+// console.log(multiply(5, 5))
+// console.log(multiply(10, 10))
+// console.log(multiply(100, 34));
+
+// console.log(multiply(1000));
